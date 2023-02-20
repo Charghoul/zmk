@@ -47,13 +47,3 @@ endchoice
 endif # LVGL
 
 endif
-
-if ZMK_BACKLIGHT
-
-config PWM
-    default y
-
-config LED_PWM
-    default y
-
-endif # ZMK_BACKLIGHT
